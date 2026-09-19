@@ -1484,6 +1484,13 @@ a {
     margin-left: 0;
   }
 
+  .site-header.has-mobile-menu .lesson-search-results {
+    right: auto;
+    left: 50%;
+    width: min(370px, calc(100vw - 32px));
+    transform: translateX(-50%);
+  }
+
   .mobile-nav-panel:not([hidden]) {
     position: absolute;
     top: 100%;
@@ -1856,6 +1863,10 @@ a {
   .mobile-nav-brand {
     width: 42px;
     height: 42px;
+  }
+
+  .site-header.has-mobile-menu .lesson-search-results {
+    width: calc(100vw - 24px);
   }
 }
 
